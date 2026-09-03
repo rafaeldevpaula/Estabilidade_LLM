@@ -11,8 +11,8 @@ if not HF_TOKEN:
 
 REPO_ID = "allenai/dolma"
 VERSION = "v1_6-sample"
-TARGET_TOKENS = 10_000_000
-OUTPUT_FILE = "dolma_10m.txt"
+TARGET_TOKENS = 80_000_000
+OUTPUT_FILE = "dolma_80m.txt"
 TOKENIZER_ID = "allenai/OLMo-1B-hf"
 
 print("Carregando tokenizador...")

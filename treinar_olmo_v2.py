@@ -16,9 +16,9 @@ from transformers import (
 
 # Configurações do experimento
 MODEL_ID = "allenai/OLMo-1B-hf"
-DATA_FILE = "dolma_10m.txt"
-OUTPUT_DIR = "./olmo_dolma_10m"
-FINAL_DIR = "./olmo_dolma_10m"
+DATA_FILE = "dolma_tokens/dolma_80m_final.txt"
+OUTPUT_DIR = "./olmo_dolma_80m"
+FINAL_DIR = "./olmo_dolma_80m"
 BLOCK_SIZE = 512
 SEED = 42
 

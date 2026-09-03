@@ -1,20 +1,16 @@
 .env
+.venv/
 
+dolma/
+dolma_data/
 dolma_tokens/
+*.txt
 
-
-
-olmo_dolma_1m/
-olmo_dolma_10m/
-olmo_dolma_80m/
-olmo_dolma_1m_final/
-olmo_dolma_10m_final/
-olmo_dolma_80m_final/
-
-__pycache__/
-*.pyc
-
+olmo_*/
 *.safetensors
 *.bin
 *.pt
 *.pth
+
+__pycache__/
+*.pyc
